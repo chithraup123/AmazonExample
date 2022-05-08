@@ -39,6 +39,7 @@ public class AmazonExample {
 		for (int i = 0; i < resultsTextElements.size(); i++) {
 			System.out.println(resultsTextElements.get(i).getText() + ":" + resultsPriceElements.get(i).getText());
 		}
+		driver.quit();
 
 	}
 
